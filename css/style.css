@@ -6,7 +6,11 @@
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
 }
 .boxed{
-    max-width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+.boxed-small{
+    max-width: 1000px;
     margin: auto;
 }
 .flex{
@@ -15,6 +19,9 @@
 .Just-SB{
     justify-content: space-between;
 }
+.align-center{
+    justify-content: center;
+}
 .wrap{
     flex-wrap: wrap;
 }
@@ -22,6 +29,7 @@ a{
     text-decoration: none;
     margin-left: 20px;
 }
+.bg-orange{background-color: orange;}
 
 /* .col10 { width: 10%; }
 .col20 { width: 20%; }
@@ -64,26 +72,89 @@ nav{
     color: white;
 }
 /* Main */
+/********** Hero **********/
 main{
     width: 100%;
     height: auto;
-    background-color: #b4d0e7;
+    
 }
 h1{
-    width: 1100px;
+    width: 1000px;
     height: 200px;
     font-size: 90px;
-    padding: 80px;
     display: flex;
     justify-content: center;
 }
 .hero{
-    max-width: 1260px;
-    height: 735px;
+    max-width: 100%;
+    height: 600px;
+    background-color: #b4d0e7;
+}
+.box{
+    margin-top: 50px;
 }
 .box1{
     background-color: darkmagenta;
+    width: 400px;
+    height: 490px;
+    padding: 40px;
 }
 .box2{
     background-color: darkblue;
+    width: 600px;
+    height: 490px; 
+    padding: 40px;
+}
+.btn-start{
+    margin: 30px 0 30px 0;
+}
+.btn-undo{
+    margin-bottom: 30px;
+}
+/********** Piani di abbonamento **********/
+.flex > .cell{
+    background-color: #c30d0db6;
+
+    margin-left: 40px;
+    font-size: 30px;
+}
+.cell{
+    width: calc(100% / 3 - 50px);
+    height: 955px;
+    border: 1px solid black;
+}
+.radiobtn{
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.Last-Cell{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 15px;
+}
+.Enterprise{
+    border: 1px solid black;
+}
+.column{
+    margin: 35px;
+}
+#solution{
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.foto > img{
+    width: 600px;
+    height: 506px;
+}
+.partner{
+    margin-top: 150px;
+    border: 1px solid black;
+}
+text{
+    text-align: center;
+    padding: 35px;
+}
+/* div flexflow */
+.columnImage{
+    width: 100%;
 }
