@@ -32,6 +32,7 @@
 .col60{width: 60%;}
 
 .padTop{padding-top: 75px;}
+.padTB{padding:130px 0px ;}
 .padTR{padding: 75px 0px 0px 40px;}
 .padTL{
     padding-top: 40px;
@@ -87,7 +88,7 @@ h1{
 .Plane{
     margin-top: 170px;
 }
-h2{
+.bus-class{
     font-size: 2.5rem;
     margin-bottom: 80px;}
     
@@ -162,11 +163,24 @@ hr{
     padding-top: 150px;
 }
 .squared-column{
-    width: calc(100vw / 3);
+    width: 33vw;
     height: 33vw;
 }
 .sponsor{
     width: 50%;
     height: 50%;
     border: 1px solid black;
+}
+/* Div testo + free trial */
+
+#Fr-Tra{
+    font-size: 2.5rem;
+    margin-left: 140px;
+    color: #61082b;
+}
+.dropBtn{
+    width: 295px;
+    height: 45px;
+    padding: 5px 10px;
+    margin-right: 140px;
 }
