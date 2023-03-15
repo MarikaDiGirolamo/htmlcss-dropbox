@@ -25,6 +25,7 @@
 
 .col{padding: 20px;}
 .col20{width: 20%;}
+.col30{width: 30%;}
 .col40{width: 40%;}
 .col50{width: 50%;}
 .col60{width: 60%;}
@@ -107,4 +108,37 @@ hr{
     width: 50px;
     margin-left: 20px;
 }
-
+/* Enterprise */
+.Last-Cell{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 15px;
+}
+.contact{
+    border: 1px solid black;
+}
+.column{
+    margin: 35px;
+}
+#solution{
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+/* Entra in contatto */
+.partner{
+    margin-top: 145px;
+    
+}
+.foto > img{
+    width: 600px;
+    height: 500px;
+}
+.find-partner{
+    padding: 60px;
+    font-size: 25px;
+}
+.txt{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 15px;
+}
