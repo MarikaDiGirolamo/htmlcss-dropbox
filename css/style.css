@@ -43,6 +43,7 @@
 .padTRB{padding: 50px 40px 0px 0px}
 
 .marTL{ margin: 55px 10px 40px 10px;}
+.marTop{margin-top: 55px;}
 
 .line-height{line-height: 1rem;}
 
@@ -97,7 +98,6 @@ nav{
 
 .support a{
     text-decoration: none;
-
 }
 /* Hero */
 
@@ -166,8 +166,17 @@ h1{
     color: black;
     transform: scale(2);
     margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    
 }
 
+.fa-arrow-down:hover{
+    color: gray;
+}
+.fa-arrow-down:active{
+    transform: translateY(4px);
+}
 /* Abbonamenti */
 .Plane{
     margin-top: 170px;
@@ -188,14 +197,38 @@ h1{
     border: 1px solid black; /*fare una classe*/
 }
 .custumer{
+    padding: 5px;
     border: 1px solid black;
 }
+
+.method{color: gray;}
+
+.Description h3, p {padding: 15px 0px 0px 20px;}
+
+.Trial{
+    border: none;
+    padding: 5px 15px;
+}
+
+.Trial a{
+    text-decoration: none;
+    color: white;
+}
+
 #buy{
     text-decoration: underline;
+    color: blue;
+    text-align: left;
 }
+
 .plane-bar{
+    color: gray;
     width: 50px;
     margin-left: 20px;
+}
+.outstanding-points span{
+    font-weight: bold;
+    color: blue;
 }
 /* Enterprise */
 .Last-Cell{
