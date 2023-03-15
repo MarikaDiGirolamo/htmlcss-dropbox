@@ -32,7 +32,7 @@
 .col60{width: 60%;}
 
 .padTop{padding-top: 75px;}
-.padTB{padding:130px 0px ;}
+.padTB{padding:120px 0px ;}
 .padTR{padding: 75px 0px 0px 40px;}
 .padTL{
     padding-top: 40px;
@@ -45,6 +45,7 @@
 
 .line-height{line-height: 1rem;}
 
+.bg-black{background-color: black;}
 .bg-lightblue{background-color: #b4d0e7;}
 .bg-blue{background-color: #0061ff;}
 .bg-white{background-color: white;}
@@ -109,7 +110,7 @@ h1{
 #buy{
     text-decoration: underline;
 }
-hr{
+.plane-bar{
     width: 50px;
     margin-left: 20px;
 }
@@ -174,7 +175,7 @@ hr{
 /* Div testo + free trial */
 
 #Fr-Tra{
-    font-size: 2.5rem;
+    font-size: 2.5em;
     margin-left: 140px;
     color: #61082b;
 }
@@ -184,3 +185,19 @@ hr{
     padding: 5px 10px;
     margin-right: 140px;
 }
+/* FAQ */
+.Faq-Title{
+    font-size: 2em;
+    width: 100%;   
+}
+.faq-section{
+    padding: 40px 0px 40px 0px;
+}
+.faq-section:hover span > i{
+    transform: rotate(180deg);
+}
+.answer{
+    display: none;
+}
+hr{margin-top: 30px;}
+/* Div contenitore nero */
