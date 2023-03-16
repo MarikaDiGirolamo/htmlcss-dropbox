@@ -32,6 +32,7 @@
 .col60{width: 60%;}
 .col65{width: 65%;}
 
+.pad20{padding: 20px;}
 .padTop{padding-top: 75px;}
 .padTB{padding:120px 0px ;}
 .padTRB{padding: 75px 0px 0px 40px;}
@@ -55,6 +56,10 @@
 .bg-white{background-color: white;}
 .bg-magenta{background-color: darkmagenta;}
 .bg-gray{background-color: gray;}
+.bg-lightgreen{background-color: #a2d39b;}
+.bg-granata{background-color: #61082b;}
+.bg-florida{background-color: #0093ce;}
+.bg-topps{background-color: #ff1c1c;}
 /****************************************/
 nav a{
     text-decoration: none;
@@ -70,6 +75,7 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
 }
 .Logo, .support{
     font-size: 1.2rem;
@@ -348,9 +354,49 @@ h1{
     height: 33vw;
 }
 .sponsor{
+    position: relative;
     width: 50%;
     height: 50%;
     border: 1px solid black;
+}
+#designit{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    right: 30%;
+    bottom: 10%;
+    width: 150px;
+    height: 50px;
+    background-color: #a2d39b;
+}
+
+#ASU{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    right: 30%;
+    bottom: 25%;
+    width: 170px;
+    height: 120px;
+}
+
+#UF{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    right: 35%;
+    bottom: 10%;
+    width: 160px;
+    height: 40px;
+}
+#topps{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 30%;
+    bottom: 20%;
+    width: 160px;
+    height: 85px;
 }
 /* Div testo + free trial */
 
