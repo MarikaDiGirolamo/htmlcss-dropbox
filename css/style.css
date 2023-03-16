@@ -5,14 +5,17 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 .boxed{
     max-width: 1120px;
     margin: 0 auto;
 }
+
 .small-boxed{
     max-width: 1000px;
     margin: 0 auto;
 }
+
 .flex{display: flex;}
 .flexColumn{flex-direction: column;}
 .justifyCenter{justify-content: center;}
@@ -72,9 +75,11 @@ nav a{
     margin-left: 10px;
     color: black;
 }
+
 .logo-link:hover{
     color: darkgray;
 }
+
 nav{
     position: fixed;
     top: 0;
@@ -82,11 +87,13 @@ nav{
     width: 100%;
     z-index: 100;
 }
+
 .Logo, .support{
     font-size: 1.2rem;
     padding: 20px;
     align-items: center;
 }
+
 .nav-btn{
     font-size: 1.2rem;
     padding: 8px;
@@ -110,16 +117,19 @@ nav{
 .support a{
     text-decoration: none;
 }
+
 /* Hero */
 
 main{
     margin-top: 80px;
 }
+
 .HeroContainer{
     max-width: 100%;
     height: 600px;
     padding: 50px 200px 0px;
 }
+
 h1{
     font-size: 80px;
     color: black;
@@ -133,6 +143,7 @@ h1{
     padding: 5px;
     width: 230px;
 }
+
 .hero-trial{
     background-color: #0061ff;
     border: none;
@@ -140,6 +151,7 @@ h1{
     outline: none;
     box-shadow: -1px 7px 0px -4px rgba(0,0,0,0.31)
 }
+
 .hero-trial:hover{background-color: blue;}
 
 .hero-trial:active{
@@ -153,7 +165,7 @@ h1{
     border: none;
     cursor: pointer;
     outline: none;
-    
+
 }
 
 .hero-canc:hover{
@@ -179,34 +191,41 @@ h1{
     margin-left: 10px;
     cursor: pointer;
     outline: none;
-    
+
 }
 
 .fa-arrow-down:hover{
     color: gray;
 }
+
 .fa-arrow-down:active{
     transform: translateY(4px);
 }
+
 /* Abbonamenti */
+
 .Plane{
     margin-top: 170px;
 }
+
 .bus-class{
     font-size: 2.5rem;
-    margin-bottom: 80px;}
-    
+    margin-bottom: 80px;
+}
+
 .radio{margin-left: 20px;}
 
 .column-section{
     width: 100%;
 }
+
 .cell{
     width: calc(100% / 3);
     height: 59.375rem;
     margin: 50px 50px 50px 0px;
     border: 1px solid black; /*fare una classe*/
 }
+
 .custumer{
     padding: 5px;
     border: 1px solid black;
@@ -214,11 +233,22 @@ h1{
 
 .method{color: gray;}
 
-.Description h3 p {padding: 15px 0px 0px 20px;}
+.category, .payment, .method {padding: 15px 0px 0px 20px;}
 
 .Trial{
     border: none;
     padding: 5px 15px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: -1px 7px 0px -4px rgba(0,0,0,0.31)
+}
+
+.Trial:hover{background-color: blue;}
+
+.Trial:active{
+    transform: translateY(4px);
+    background-color: #0061ff;
+    box-shadow: -1px 7px 0px -4px rgba(0,0,0,0.31)
 }
 
 .Trial a{
@@ -232,28 +262,36 @@ h1{
     text-align: left;
 }
 
+.trybtn{
+    padding-top: 50px;
+}
+
 .plane-bar{
     color: gray;
     width: 50px;
     margin-left: 20px;
 }
+
 .outstanding-points span{
     font-weight: bold;
     color: blue;
 }
+
 /* Enterprise */
+
 .Last-Cell{
     margin-top: 50px;
     border: 1px solid black;
     padding: 15px;
 }
+
 .contact{
     border: 1px solid black;
 }
+
 .column{
-    margin: 20px 20px 20px 0px;
+    margin: 20px;
 }
-.column h3{margin-left: 20px;}
 
 #solution{
     flex-wrap: wrap;
@@ -282,27 +320,33 @@ h1{
 }
 
 /* Entra in contatto */
+
 .partner{
     margin-top: 145px;
     margin-bottom: 160px;
 }
+
 .foto > img{
     width: 600px;
     height: 500px;
 }
+
 .find-partner{
     padding: 60px;
     font-size: 25px;
 }
+
 .txt{
     margin-top: 30px;
     margin-bottom: 35px;
     font-size: 15px;
 }
+
 .partner a{
     text-decoration: none;
     color: black;
 }
+
 .partner-btn{
     margin-left: 20px;
     padding: 5px 10px;
@@ -324,6 +368,7 @@ h1{
 }
 
 /* Dropbox Business */
+
 .txt-1{
     font-size: 2.5rem;
     margin-bottom: 80px;
@@ -342,11 +387,10 @@ h1{
 .caption{ font-size: 1rem;}
 
 /* Div solo testo e link */
+
 .numb-text{ font-size: 40px;}
 .numbers-link{margin-top: 70px;}
-.numbers-link a{
-    color: #0061ff;
-}
+.numbers-link a{color: #0061ff;}
 
 /* Chtulu Div */
 
@@ -354,15 +398,18 @@ h1{
     flex-wrap: nowrap;
     padding-top: 150px;
 }
+
 .squared-column{
     width: 33vw;
     height: 33vw;
 }
+
 .sponsor{
     position: relative;
     width: 50%;
     height: 50%;
 }
+
 #designit{
     position: absolute;
     top: 40%;
@@ -395,6 +442,7 @@ h1{
     height: 40px;
     filter: invert(1);
 }
+
 #topps{
     position: absolute;
     top: 30%;
@@ -405,6 +453,7 @@ h1{
     height: 85px;
     filter: invert(1);
 }
+
 .design{
     padding: 50px;
 }
@@ -431,6 +480,7 @@ h1{
     height: 65px;
     filter: invert(1);
 }
+
 #hearst{
     position: absolute;
     top: 50%;
@@ -452,6 +502,7 @@ h1{
     height: 90px;
     filter: invert(1);
 }
+
 #clear{
     position: absolute;
     top: 25%;
@@ -470,32 +521,62 @@ h1{
     margin-left: 140px;
     color: #61082b;
 }
+
 .dropBtn{
     width: 295px;
     height: 45px;
     padding: 5px 10px;
     margin-right: 140px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: -1px 7px 0px -4px rgba(0,0,0,0.31);
 }
+
+.dropBtn:hover{
+    background-color: white;
+    box-shadow: -1px 7px 0px -4px rgba(0,0,0,0.31);
+}
+
+.dropBtn:active{
+    transform: translateY(4px);
+    background-color: lightgray;
+    box-shadow: -1px 7px 0px -4px rgba(0,0,0,0.31)
+}
+
+.DropBSN-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
 /* FAQ */
+
 .Faq-Title{
     font-size: 2em;
-    width: 100%;   
+    width: 100%;
 }
+
 .faq-section{
     padding: 40px 0px 40px 0px;
 }
+
 .faq-section:hover span > i{
     transform: rotate(180deg);
 }
+
 .answer{
     display: none;
 }
+
 hr{margin-top: 30px;}
+
 /* Div contenitore nero */
 footer{
     width: 100%;
     margin-top: 150px;
 }
+
 .footer-column{
     padding: 100px 0px 70px;
 }
@@ -503,35 +584,55 @@ footer{
 li{
     list-style: none;
 }
+
 .footer-link{
     color: white;
     text-decoration: none;
 }
+
 .box h3{
     padding: 5px;
     font-size: 2em;
     color: white;
 }
+
 .box{
     height: 220px;
     width: 25%;
-    margin: 20px;
+    padding: 15px;
+    line-height: 2em;
 }
+
 ul{
-    margin-top: 30px;
+    margin-top: 20px;
 }
-.select{margin: 55px 10px 55px 0px;}
+
+.footer-bar{width: 120px;}
+
+.select{
+    margin: 55px 10px 55px 0px;
+
+}
+
+.Lang-Box{
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.Lang-Box:hover{
+    background-color: black;
+}
+
+.Lang-Box:active{
+    transform: translateY(4px);
+    background-color: black;
+}
 
 .fa-earth-americas{
     filter: invert(1);
     width: 35px;
     height: 21px;
-    margin-left: 10px;
-}
-
-div select{
-    border: none;
-    background-color: black;
-    color: white;
-    margin-left: 2px;
 }
