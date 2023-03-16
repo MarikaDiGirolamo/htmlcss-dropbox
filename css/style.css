@@ -60,6 +60,11 @@
 .bg-granata{background-color: #61082b;}
 .bg-florida{background-color: #0093ce;}
 .bg-topps{background-color: #ff1c1c;}
+.bg-lightgray{background-color: #f5f5f5;}
+.bg-bicycle{background-color: #d5001f;}
+.bg-hearst{background-color: #b4d0e7;}
+.bg-lonely-planet{background-color: #0d2481;}
+.bg-channel{background-color: #ffd830;}
 /****************************************/
 nav a{
     text-decoration: none;
@@ -357,7 +362,6 @@ h1{
     position: relative;
     width: 50%;
     height: 50%;
-    border: 1px solid black;
 }
 #designit{
     position: absolute;
@@ -367,7 +371,7 @@ h1{
     bottom: 10%;
     width: 150px;
     height: 50px;
-    background-color: #a2d39b;
+    filter: invert(1);
 }
 
 #ASU{
@@ -378,6 +382,7 @@ h1{
     bottom: 25%;
     width: 170px;
     height: 120px;
+    filter: invert(1);
 }
 
 #UF{
@@ -388,6 +393,7 @@ h1{
     bottom: 10%;
     width: 160px;
     height: 40px;
+    filter: invert(1);
 }
 #topps{
     position: absolute;
@@ -397,7 +403,66 @@ h1{
     bottom: 20%;
     width: 160px;
     height: 85px;
+    filter: invert(1);
 }
+.design{
+    padding: 50px;
+}
+
+.logo-design img{
+    width: 275x;
+    height: 90px;
+}
+
+.text-design{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.design-bar{width: 100px;}
+
+#bicycle{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    right: 30%;
+    bottom: 50%;
+    width: 160px;
+    height: 65px;
+    filter: invert(1);
+}
+#hearst{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    right: 30%;
+    bottom: 15%;
+    width: 165px;
+    height: 20px;
+    filter: invert(1);
+}
+
+#lonely{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    right: 35%;
+    bottom: 20%;
+    width: 170px;
+    height: 90px;
+    filter: invert(1);
+}
+#clear{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    right: 30%;
+    bottom: 25%;
+    width: 160px;
+    height: 120px;
+    filter: invert(1);
+}
+
 /* Div testo + free trial */
 
 #Fr-Tra{
