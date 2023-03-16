@@ -12,24 +12,26 @@
         <title>Dropbox Clone</title>
     </head>
     <body>
+
         <!-- Navbar (fixed) e relativi link -->
         <header>
             <nav class="flex bg-white justifyBetween">
                 <div class="Logo justifyBetween">
                     <img src="./img/logo-small.png" alt="DropBox">
-                    <a class="logo-link" href="#">Perchè Dropbox</a>
+                    <a class="logo-link" href="#faq">Perchè Dropbox</a>
                     <a class="logo-link" href="#">Funzioni</a>
-                    <a class="logo-link" href="#">Piani e Prezzi</a>
+                    <a class="logo-link" href="#subscription">Piani e Prezzi</a>
                 </div>
                 <div class="support justifyBetween">
                     <a class="logo-link" href="#">Supporto</a>
-                    <a class="logo-link" href="#">Contatta l'ufficio vendite</a>
+                    <a class="logo-link" href="#contact">Contatta l'ufficio vendite</a>
                     <a class="logo-link" href="#">Accedi</a>
                     <button class="nav-btn bg-blue"><a class="text-white" href="#">Inizia</a></button>
                 </div>
             </nav>
         </header>
         <main>
+
             <!-- Hero, contenitore blu con colonna testo e colonna foto -->
             <section class="Hero">
                 <div class="HeroContainer bg-lightblue justifyCenter boxed">
@@ -37,7 +39,7 @@
                     <div class="flex">
                         <div class="hero-content flex flexColumn col30 boxed"> 
                             <p> Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                            <button class="hero-trial"><a href="#">Inizia la tua prova gratuita</a></button>
+                            <button class="hero-trial"><a href="#subscription">Inizia la tua prova gratuita</a></button>
                             <button class="hero-canc"><a id="black"  href="#">Annulla in qualsiasi momento</a></button>
                             <a href="#subscription"><i class="fa-solid fa-arrow-down"></i></a>
                         </div>
@@ -46,6 +48,7 @@
                         </div>
                     </div>
             </section>
+
             <!-- Piani di abbonamento - Section Piano, 3 colonne -->
             <section class="Plane">
                 <div id="subscription" class="small-boxed flex flexColumn">
@@ -63,8 +66,8 @@
                                 <i class="fa-solid fa-user"><span> Singolo</span></i>
                             </div>
                             <div class="Description flex wrap flexColumn text-left">
-                                <h3>Professional</h3><br>
-                                <p><strong>€ 12.00</strong></p>
+                                <h3 class="category">Professional</h3><br>
+                                <p class="payment"><strong>€ 12.00</strong></p>
                                 <p class="method">/mese</p>
                         
                                 <div class="Details flex wrap flexColumn text-left padTL">
@@ -81,7 +84,7 @@
                             </div> 
                             <div class="marTop">
                                 <button class="Trial bg-blue"><a href="#">Prova gratis per 30 giorni</a></button>
-                                <p>oppure <a id="buy" href="#">acquista ora</a></p>
+                                <p class="trybtn">oppure <a id="buy" href="#">acquista ora</a></p>
                                 <hr class=" plane-bar">
                             </div> 
                             <div class="outstanding-points marTL text-left">
@@ -97,8 +100,8 @@
                                 <i class="fa-solid fa-users"><span> Team</span></i>
                             </div>
                             <div class="Description flex wrap flexColumn text-left">
-                                <h3>Advanced</h3><br>
-                                <p><strong>€ 18.00</strong></p>
+                                <h3 class="category">Advanced</h3><br>
+                                <p class="payment"><strong>€ 18.00</strong></p>
                                 <p class="method">/utenti/mese</p>
                         
                                 <div class="Details flex wrap flexColumn text-left padTL">
@@ -115,7 +118,7 @@
                             </div>
                             <div class="marTop">
                                 <button class="Trial bg-blue"><a href="#">Prova gratis per 30 giorni</a></button>
-                                <p>oppure <a id="buy" href="#">acquista ora</a></p>
+                                <p class="trybtn">oppure <a id="buy" href="#">acquista ora</a></p>
                                 <hr class="plane-bar">
                             </div>
                             <div class="outstanding-points marTL text-left">
@@ -134,8 +137,8 @@
                                 <i class="fa-sharp fa-solid fa-building"></i><span> Azienda</span></i>
                             </div>
                             <div class="Description flex wrap flexColumn text-left">
-                                <h3>Enterprise</h3><br>
-                                <p><strong>Contattaci</strong></p>
+                                <h3 class="category">Enterprise</h3><br>
+                                <p class="payment"><strong>Contattaci</strong></p>
                                 <p class="method"> - </p>
                         
                                 <div class="Details flex wrap flexColumn text-left padTL">
@@ -152,7 +155,7 @@
                             </div>
                             <div class="marTop">
                                 <button class="Trial bg-blue"><a href="#">Contattaci</a></button>
-                                <p>oppure <a id="buy" href="#">acquista ora</a></p>
+                                <p class="trybtn">oppure <a id="buy" href="#">acquista ora</a></p>
                                 <hr class="plane-bar">
                             </div>
                             <div class="outstanding-points marTL text-left">
@@ -165,8 +168,9 @@
                     </section>
                 </div>
             </section>
+
             <!-- Section Enterprise -->
-            <section class="Enterprise small-boxed">
+            <section id="contact"  class="Enterprise small-boxed">
                 <div class="Last-Cell text-center">
                     <i class="fa-solid fa-users"><span> Team</span></i>
                 </div>
@@ -193,6 +197,7 @@
                     <button class="partner-btn flex"><a href="#">Trova un partner</a></button>
                 </div>
             </div>
+
             <!--  Dropbox Business - Div contenitore flex-flow -->
             <section class="Operation small-boxed flex justifyBetween wrap">
                 <div class="options small-boxed flex flexColumn">
@@ -234,19 +239,23 @@
                     <h4>Passa di meno da uno strumento all'altro</h4>
                     <p class="caption">Porta a termine le attività quotidiane con un solo strumento. Crea modifica e condividi contenuti cloud da Documenti,Fogli e Presentazioni di Google. file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-            </section>    
+            </section> 
+
             <!-- Div solo testo e link -->
             <section class="small-boxed padTop">
                 <div class="numbers flex text-left col60">
                     <h2 class="numb-text">Più di 500.000 team utilizzano Dropbox Business</h2>
                 </div>
                 <div class="numbers-link" >
-                    <p><a href="#">Scopri di più sui nostri clienti</a></p>
+                    <p><a class="link" href="#">Scopri di più sui nostri clienti</a></p>
                 </div>
             </section>
+
             <!-- Cthulhu Div -->
             <div class="Chtulhu flex">
                 <div class="squared-column flex wrap">
+
+                    <!-- 1st Squared-column -->
                     <div class="sponsor bg-lightgreen">
                         <img id="designit" src="./img/designit.svg" alt="">
                     </div>
@@ -260,6 +269,8 @@
                         <img id="topps" src="./img/topps.svg" alt="">
                     </div>
                 </div>
+
+                <!-- 2nd Squared-column -->
                 <div class="design squared-column bg-lightgray justifyBetween">
                     <div class="logo-design">
                         <img src="./img/designit.svg" alt="">
@@ -271,8 +282,9 @@
                     <div class="signature">
                         <p>Morten Thomsen, Global IT Lead</p>
                     </div>
-
                 </div>
+
+                <!-- 3rd Squared-column -->
                 <div class="squared-column flex wrap">
                     <div class="sponsor bg-bicycle">
                         <img id="bicycle" src="./img/world_bicycle_relief.svg" alt="">
@@ -288,17 +300,19 @@
                     </div>
                 </div>
             </div>
+
             <!-- Div testo + button prova gratuita -->
             <div class="free-trial flex padTB  bg-lightblue">
                 <div class="trial small-boxed flex col40">
-                    <h2 id="Fr-Tra">Porta DropBox Business nella tua azienda</h2>
+                    <h2 id="Fr-Tra">Porta Dropbox Business nella tua azienda</h2>
                 </div>
-                <div class="flex small-boxed text-center col30">
-                    <button class="dropBtn"><a href="#">Inizia la tua prova gratuita</a></button>
+                <div class="DropBSN-btn flex small-boxed text-center col30">
+                    <button class="dropBtn"><a href="#subscription">Inizia la tua prova gratuita</a></button>
                 </div>
             </div>
+
             <!-- Faq -->
-            <div class="Faq small-boxed">
+            <div id="faq" class="Faq small-boxed">
                 <div class="Faq flex padTB small-boxed ">
                     <div class="Faq-Title">
                         <h2>Domande Frequenti</h2><br>
@@ -334,9 +348,10 @@
                 </div>
             </div>
         </main>
+
+        <!-- Footer nero. Strutturato in colonne/liste -->
         <footer class="bg-black">
-            <!-- Div contenitore nero, due sotto div. Strutturati in colonna -->
-            <div class="footer-black small-boxed justifyBetween">
+            <div class="footer-black small-boxed">
                 <div class="footer-column flex">
                     <div class="Dropbox box">
                         <h3>Dropbox</h3>
@@ -350,7 +365,7 @@
                     </div>
 
                     <div class="Dropbox box">
-                        <h3>Dropbox</h3>
+                        <h3>Prodotti</h3>
                         <ul>
                             <li><a class="footer-link" href="#">Applicazione desktop</a></li>
                             <li><a class="footer-link" href="#">Perchè Dropbox</a></li>
@@ -361,7 +376,7 @@
                     </div>
 
                     <div class="Dropbox box">
-                        <h3>Dropbox</h3>
+                        <h3>Azienda</h3>
                         <ul>
                             <li><a class="footer-link" href="#">Applicazione desktop</a></li>
                             <li><a class="footer-link" href="#">Perchè Dropbox</a></li>
@@ -372,7 +387,7 @@
                     </div>
 
                     <div class="Dropbox box">
-                        <h3>Dropbox</h3>
+                        <h3>Supporto</h3>
                         <ul>
                             <li><a class="footer-link" href="#">Applicazione desktop</a></li>
                             <li><a class="footer-link" href="#">Perchè Dropbox</a></li>
@@ -383,7 +398,7 @@
                     </div>
 
                     <div class="Dropbox box">
-                        <h3>Dropbox</h3>
+                        <h3>Community</h3>
                         <ul>
                             <li><a class="footer-link" href="#">Applicazione desktop</a></li>
                             <li><a class="footer-link" href="#">Perchè Dropbox</a></li>
@@ -393,11 +408,13 @@
                         </ul>
                     </div>
                 </div>
-                <hr>
+                <hr class="footer-bar">
+                
+                <!-- Language -->
                 <div class="language flex">
                     <div class="select flex">
                         <i class="fa-solid fa-earth-americas"></i>
-                        <select name="select_box">
+                        <select class="Lang-Box" name="select_box">
                             <option value="Ita">Italiano</option>
                             <option value="Eng">English</option>
                             <option value="Esp">Español</option>
